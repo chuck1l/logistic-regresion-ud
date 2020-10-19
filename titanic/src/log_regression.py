@@ -33,4 +33,26 @@ if __name__ == '__main__':
     print('The Resulst From Model 1: \n', classification_report(y1_val, y_pred1))
     print('The Resulst From Model 2: \n', classification_report(y2_val, y_pred2))
 
+    '''
+    The Resulst From Model 1: 
+               precision    recall  f1-score   support
+
+           0       0.82      0.91      0.86       163
+           1       0.84      0.68      0.75       104
+
+    accuracy                           0.82       267
+    macro avg       0.83      0.80      0.81       267
+    weighted avg       0.83      0.82      0.82       267
+
+    The Resulst From Model 2: 
+               precision    recall  f1-score   support
+
+           0       0.82      0.91      0.86       163
+           1       0.84      0.68      0.75       104
+
+    accuracy                           0.82       267
+    macro avg       0.83      0.80      0.81       267
+    weighted avg       0.83      0.82      0.82       267
+    '''
+
     
